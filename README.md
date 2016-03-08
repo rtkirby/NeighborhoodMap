@@ -4,6 +4,7 @@
 ---------------------------------------
 ###1.GitHub repository:
 https://github.com/rtkirby/NeighborhoodMap
+*link here: rtkirby.github.io
 * Open the index.html file with a web browser to see and interact with API Google map.
 * There are several ways to get information about the red map markers.
 * Clicking a map marker will open an information window for the location, click the 'X' to close the window.
