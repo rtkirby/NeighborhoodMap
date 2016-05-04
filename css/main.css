@@ -1,112 +1,61 @@
-div#wrapper {width:90%; margin: 10px auto; position: relative;}
-header#site {
-	height:80px;
-	padding:10px;
-	background-color: #d4d7e8;
-	margin:10px 0px;
-	text-align:center;
+/* Remove padding and margin */
+*
+    {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
 }
-footer {
-	font-size:0.8em;
-	clear:both;
-}
-footer .col {
-	width:30%;
-	margin:1% 1.1%;
-	padding:2px;
-	height:100px;
-	background-color:#F63;
-	float:left;
-}
-nav {
-	background-color:#d4d7e8;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	top: 110px;
-	width: 29%;
-}
-nav ul {
-	list-style:none;
-}
-nav ul li a {
-	display: block;
-	background-color:#CCC;
-	margin-right: 20px;
-	width: 110px;
-	line-height:1.5em;
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
 	text-align: center;
-	text-decoration: none;
-	color: #000;
+	justify-content: space-around;
 }
-nav ul li a:hover {
-		color: #fff;
-		background-color:#39C;
+
+.header {
+	order: 1;
+	height: 100px;
+	flex: 0 1 100%;
+	background: #ccff99;
+	border-radius: 7px;
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid #66cc00;
+	min-width: 184px;
 }
-article {
-	background-color:#d4d7e8;
-	float:right;
-	width:69%;
-	margin-right:10px;
+
+.menubox {
+	order: 2;
+	flex: 0 1 180px;
+	max-height: 264px;
+	/* min-height: 223px; */
+	background: #99ffff;
+	border-radius: 7px;
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid #00cccc;
 }
-article header {
-	background-color:#d4d7e8;
-	padding:15px;
-}
-section#abstract {
-	font-size:1.09em;
-	font-style:italic;
-	margin:10px 0px;
-	text-align:justify;
-	padding:5px 80px;
-}
-section#main {
-	font-size:1em;
-	padding:20px;
-	text-align:justify;
-}
-.ads {
-	height:100%;
-	width:30%;
-	background-color:#d4d7e8;
-	margin-bottom:0px;
-	float:left;
-	}
-.ads p:first-child {
-	padding:15px;
-	font-size:2em;
-}
-.ads p:last-child {
-	padding-left:15px;
-	font-size:1em;color:#d4d7e8;
-}
-html,
-body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-.my-head {
-	background: #d4d7e8;
-	width: 100%;
-}
-.my-list {
-	background: #d4ecfb;
-	width: 100%;
-}
-.my-li {
-	background: #ebf5fc;
-}
-.my-search {
-	background: #d5e9d7;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	width: 100%;
-}
+
 .my-map {
-	background: #d4ecfb;
-	height: 600px;
-	width: 100%;
+	order: 3;
+	min-height: 520px;
+	flex: 1 70%;
+	background: #adebad;
+	border-radius: 7px;
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid #28a428;
+	min-width: 184px;
+	max-width: 99%;
+}
+map {
+	order: 3;
+	min-height: 520px;
+	flex: 1 70%;
+	background: #ffffff;
+	min-width: 184px;
+	max-width: 99%;
 }
 .hilite {
 	color:blue;
