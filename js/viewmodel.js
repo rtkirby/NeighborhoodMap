@@ -6,7 +6,7 @@ function AppViewModel() {
 
 	if ( myMap === null ) {
 		this.mapError('<h5>Failed to retrieve map</h5>');
-	}
+}
 
 	self.query = ko.observable('');
 	self.search = function(value) {

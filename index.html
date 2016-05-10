@@ -18,7 +18,7 @@
 					<span data-bind="
 						css: { hilite: select() },
 						text: name,
-						event: { mouseover: $parent.highLightOn, mouseout: $parent.highLightOff, click: 	$parent.listClick }">
+						event: { mouseover: $parent.highLightOn, mouseout: $parent.highLightOff, click: $parent.listClick }">
 					</span>
 				</li>
 			</ul>
@@ -37,11 +37,13 @@
 		</map>
 	</div>
 <script src="js/jQuery.js"></script>
-<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="js/bootstrap.min.js"></script>
 <script src="js/knockout.js"></script>
 <script src="js/model.js"></script>
 <script src="js/viewmodel.js"></script>
 <script src="js/localmap.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtsmbA9eMoAim3J_yCqqsYYPl2YHAvwjI&callback=initMap"
-	async defer></script>
+<script>function googleError() {
+	alert("Google Map not Loading !")
+}</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtsmbA9eMoAim3J_yCqqsYYPl2YHAvwjI&callback=initMap" onerror="googleError()" async defer></script>
 </body>

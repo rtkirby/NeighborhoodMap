@@ -4,11 +4,7 @@
 ---------------------------------------
 ###1.GitHub repository:
 https://github.com/rtkirby/NeighborhoodMap
-<<<<<<< HEAD
 * Direct link: http://rtkirby.github.io
-=======
-* Direct Link: http://rtkirby.github.io
->>>>>>> origin/master
 * Open the index.html file with a web browser to see and interact with API Google map.
 * There are several ways to get information about the red map markers.
 * Clicking a map marker will open an information window for the location, click the 'X' to close the window.
@@ -38,3 +34,5 @@ https://github.com/rtkirby/NeighborhoodMap
 * Online Tutorial: [Lynda, Javascript for web designers](Lynda.com)
 * Online Tutorial: [Intro and Flexbox Basics](Wes Bos, youtube)
 * Online Tutorial: [CSS3 Flexbox Essentials](Adam Khoury, youtube)
+* web: [Google Developers](https://developers.google.com/maps/documentation/javascript/tutorials)
+* Udacity [Handling Google Maps](https://discussions.udacity.com/t/handling-google-maps-in-async-and-fallback/34282)
